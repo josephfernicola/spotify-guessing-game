@@ -1,1 +1,2 @@
-# spotify-guessing-game
+Guess the correct artist for the tracks!
+
