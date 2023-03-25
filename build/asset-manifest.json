@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/spotify-guessing-game/static/css/main.edf0d1d7.css",
-    "main.js": "/spotify-guessing-game/static/js/main.dcfcce6b.js",
+    "main.js": "/spotify-guessing-game/static/js/main.49ac7b5a.js",
     "index.html": "/spotify-guessing-game/index.html",
     "main.edf0d1d7.css.map": "/spotify-guessing-game/static/css/main.edf0d1d7.css.map",
-    "main.dcfcce6b.js.map": "/spotify-guessing-game/static/js/main.dcfcce6b.js.map"
+    "main.49ac7b5a.js.map": "/spotify-guessing-game/static/js/main.49ac7b5a.js.map"
   },
   "entrypoints": [
     "static/css/main.edf0d1d7.css",
-    "static/js/main.dcfcce6b.js"
+    "static/js/main.49ac7b5a.js"
   ]
 }

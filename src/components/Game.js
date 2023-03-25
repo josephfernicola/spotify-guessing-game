@@ -129,13 +129,13 @@ const Game = () => {
       setGuessNotification(
         `Incorrect! You have run out of guesses. ${correctArtist.name} is the correct artist. Redirecting to home page.....`
       );
-      setTimeout(() => navigate("/"), 3000);
+      setTimeout(() => navigate("/spotify-guessing-game"), 3000);
     }
     if (guessedArtist === correctArtist.name) {
       setGuessNotification(
         `${correctArtist.name} is correct! Redirecting to home page.....`
       );
-      setTimeout(() => navigate("/"), 3000);
+      setTimeout(() => navigate("/spotify-guessing-game"), 3000);
     }
   };
 
@@ -178,7 +178,10 @@ const Game = () => {
           })}
           <div id="artistSectionBtnContainer">
             <button onClick={handleSubmit}>Submit</button>
-            <button id="changeConfigBtn" onClick={() => navigate("/")}>
+            <button
+              id="changeConfigBtn"
+              onClick={() => navigate("/spotify-guessing-game")}
+            >
               Change Configurations
             </button>
           </div>

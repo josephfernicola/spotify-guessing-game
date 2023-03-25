@@ -1,11 +1,10 @@
 {
   "name": "spotify-guessing-game",
   "version": "2.0.0",
-  "main": "dist/index.js",
   "description": "",
   "homepage": "http://josephfernicola.github.io/spotify-guessing-game",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build"
