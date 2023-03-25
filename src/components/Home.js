@@ -104,14 +104,11 @@ const Home = () => {
   };
   return (
     <div id="main">
-      <div id="secondBackground">
       <div id="logoAndHeaderContainer">
         <div id="spotifyLogo">{<BsSpotify />}</div>
-        <h1>Who Is Who?</h1>
+        <h1>Spotify Guessing Game</h1>
       </div>
-      <h2>
-        The game where you guess the artist's name listening to their songs
-      </h2>
+      <h2>Select your preferences</h2>
       <div id="homeInputContainer">
         <div id="element1">
           Genre
@@ -129,9 +126,7 @@ const Home = () => {
           </select>
         </div>
         <div id="element2">
-          <label htmlFor="numberOfArtists">
-            Number of Artists (between 2 and 4)
-          </label>
+          <label htmlFor="numberOfArtists">Number of Artists (2 - 4)</label>
 
           <input
             type="number"
@@ -144,9 +139,7 @@ const Home = () => {
           ></input>
         </div>
         <div id="element3">
-          <label htmlFor="numberOfSongs">
-            Number of Songs (between 1 and 3)
-          </label>
+          <label htmlFor="numberOfSongs">Number of Songs (1 - 3)</label>
           <input
             type="number"
             id="numberOfSongs"
@@ -160,12 +153,11 @@ const Home = () => {
       </div>
       <div id="homeButtonContainer">
         <button id="buttonHome" onClick={playGame}>
-          Let's Play!
+          Play!
         </button>
       </div>
 
       <div className="error">{error}</div>
-      </div>
     </div>
   );
 };

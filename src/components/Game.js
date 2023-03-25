@@ -65,9 +65,6 @@ const Game = () => {
     );
   }, [gameArtists]);
 
-  //Fetches the tracks for the correct artist
-  useEffect(() => {}, [correctArtist]);
-
   // Chooses a random correct artist to fetch the tracks for
   useEffect(() => {
     console.log("after", fetchedArtists);
@@ -93,7 +90,7 @@ const Game = () => {
   useEffect(() => {
     shuffleTracks(fetchedTracks);
     setGameTracks(fetchedTracks.slice(0, selectedNumberOfTracks));
-  }, [fetchedTracks, selectedNumberOfTracks]);
+  }, [fetchedTracks]);
 
   const shuffleTracks = (array) => {
     if (array.length <= 1) return array;
@@ -168,7 +165,14 @@ const Game = () => {
                   />
                   {artist.name}
                 </label>
-                <img className="artist-image" src={artist.images[0].url}></img>
+                {artist.images[0].url !== null ? (
+                  <img
+                    className="artist-image"
+                    src={artist.images[0].url}
+                  ></img>
+                ) : (
+                  <div></div>
+                )}
               </div>
             );
           })}

@@ -1,7 +1,6 @@
 {
-  "name": "whos-who",
+  "name": "sotify-guessing-game",
   "version": "2.0.0",
-  "description": "Skeleton for the Spotify Assessment of the FastTrack'D Class",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",

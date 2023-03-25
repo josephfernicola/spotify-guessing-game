@@ -1,48 +1,32 @@
 body {
   background-color: #212121;
   font-family: "Sans Serif Collection";
-  margin: 0;
 }
 
 #main {
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  padding: 1rem;
   flex-direction: column;
-  margin: -1rem;
-  box-shadow: rgba(213, 217, 217, 0.5);
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2019%2F09%2F1008225-nature-winter-snow-urban-grayscale-nowfall-hd-wallpapers-1080p.jpg&f=1&nofb=1&ipt=9bf9d23cf9c7fdd205761f73231e47b7c984d233a5bf898a5e770ac876191c56&ipo=images");
-}
-
-#secondBackground{
   background-color: #212121;
-  margin-left: 27rem;
-  margin-right: 27rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border-radius: 15px;
 }
 
 h1 {
+  margin: 0;
+  font-size: 4rem;
   text-align: center;
   color: #ffffff;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-#logoAndHeaderContainer > h1 {
-  margin-top: 0;
 }
 
 h2 {
   text-align: center;
   justify-content: center;
-  font-size: 30px;
   color: #1db954;
-  margin-top: -1rem;
+  font-size: 2rem;
 }
 
 #main > h2 {
-  margin-top: 0;
+  margin: 1rem;
 }
 
 #buttonHome {
@@ -58,18 +42,17 @@ h2 {
   padding: 0.5rem;
   width: 200px;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
   background-color: #535353;
   border-color: #535353;
   color: #ffffff;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
   border-radius: 20px;
 }
 
 #homeButtonContainer {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
 }
 
 #buttonHome:hover {
@@ -78,37 +61,37 @@ h2 {
 }
 
 #select {
-  font-size: 30px;
   text-align: center;
   background-color: #535353;
   border-radius: 20px;
   border-color: #535353;
   color: #ffffff;
-
+  padding: 0.5rem;
 }
 
 #element1 {
-  font-size: 40px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 2rem;
   color: #ffffff;
-  margin-right: 19rem;
-
+  font-size: 2rem;
+  margin-right: 8rem;
 }
 
 #element1 select {
-  font-size: 30px;
+  font-size: 1.2rem;
 }
 
 #element2 {
   display: flex;
   flex-direction: column;
-  font-size: 40px;
+  padding-bottom: 2rem;
   color: #ffffff;
+  font-size: 2rem;
 }
 
 #element2 #numberOfArtists {
-  font-size: 30px;
+  font-size: 2rem;
   width: 8rem;
   border-radius: 20px;
   text-align: center;
@@ -120,12 +103,12 @@ h2 {
 #element3 {
   display: flex;
   flex-direction: column;
-  font-size: 40px;
   color: #ffffff;
+    font-size: 2rem;
 }
 
 #element3 #numberOfSongs {
-  font-size: 30px;
+  font-size: 2rem;
   width: 8rem;
   border-radius: 20px;
   text-align: center;
